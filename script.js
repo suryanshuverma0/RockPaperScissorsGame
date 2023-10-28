@@ -15,6 +15,7 @@ play_btn.addEventListener("click", function () {
 
   if (playerScore === 5 || computerScore === 5) {
     confirm("Match is alreaedy over. Do you want to play again");
+    alert("Press the Play Button to play again");
     resetGame();
     location.reload();
   }
