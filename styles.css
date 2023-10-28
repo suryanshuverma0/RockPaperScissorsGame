@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background: linear-gradient(135deg, #203e4a, #0f8b8d);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.heading h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #0ef;
+  border: 2px solid white;
+  border-style: dotted;
+  border-radius: 10px;
+  padding: 5px;
+}
+.heading input[type="text"] {
+  font-size: 30px;
+  padding: 5px;
+  font-weight: 700;
+}
+.play-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+#play {
+  font-size: 45px;
+  padding: 15px;
+  background-color: #0ef;
+  color: black;
+  border-radius: 15px;
+}
+#play:hover {
+  font-size: 55px;
+  transition: 0.4s;
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+#player button {
+  font-size: 40px;
+  border-radius: 50%;
+  background-color: black;
+  padding: 20px;
+  margin: 20px;
+}
+#player button:hover {
+  background-color: bisque;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+input[type="text"] {
+  background-color: #0f8b8d;
+}
+#user_choice,
+#computer_choice {
+  width: 150px;
+  height: 150px;
+  font-size: 70px;
+  padding-left: 30px;
+}
+.choice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vs {
+  font-size: 45px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+}
+
+label {
+  color: white;
+  font-size: 28px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+

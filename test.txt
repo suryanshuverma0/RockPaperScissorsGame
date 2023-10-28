@@ -1,0 +1,15 @@
+
+          <h1 class="opt rock">👊</h1>
+          <h1 class="opt paper">🖐️</h1>
+          <h1 class="opt scissors">✌️</h1>
+
+background: linear-gradient(135deg, #203e4a, #0f8b8d);
+
+👊
+🖐️
+✌️
+
+let gameOption = ["scissor", "paper", "rock"];
+
+
+

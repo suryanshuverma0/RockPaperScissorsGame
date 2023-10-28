@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scissor Ppaer Rock</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game">
+        <div class="heading">
+          <div class="player-score">
+            <input type="text" id="player-score" placeholder="Score" readonly />
+          </div>
+
+          <div class="intro">
+            <h1>Scissor Ppaer Rock</h1>
+          </div>
+
+          <div class="computer-score">
+            <input
+              type="text"
+              id="computer-score"
+              placeholder="Score"
+              readonly
+            />
+          </div>
+        </div>
+ 
+        <div class="game-option">
+          <div class="player" id="player">
+            <div class="options">
+              <button id="scissor" type="button">✌️</button>
+              <button id="paper" type="button">🖐️</button>
+              <button id="rock" type="button">👊</button>
+            </div>
+          </div>
+          <div class="choice">
+            <div class="user_choice">
+              <label for="user_choice">Your Choice</label>
+              <input type="text" id="user_choice" />
+            </div>
+            <div class="vs">
+              <h1>V.S</h1>
+            </div>
+            <div class="computer_choice">
+              <input type="text" id="computer_choice" />
+              <label for="computer_choice">Computer's Choice</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="play-btn">
+          <button type="button" id="play">Play</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
